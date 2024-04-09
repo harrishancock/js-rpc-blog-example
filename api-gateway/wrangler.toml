@@ -1,0 +1,10 @@
+name = "api-gateway"
+main = "src/index.js"
+compatibility_date = "2024-04-05"
+
+workers_dev = true
+
+[[services]]
+binding = "AUTH_SERVICE"
+service = "auth"
+entrypoint = "AuthService"
